@@ -14,3 +14,5 @@ for dir in $(ls -d */); do
     ln -s "$PWD/$dir" "$HOME/.config/"
   fi
 done
+
+ln -s $HOME/.config/tmux/.tmux.conf $HOME/.tmux.conf
